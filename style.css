@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50vw;
+}
+.element{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+
+
+.circle {
+    height: 2vw;
+    width: 2vw;
+    background-color: darkred;
+    position: absolute;
+    border-radius: 50%;
+    transition: .1s ease;
+}
